@@ -15,8 +15,10 @@ $(function () {
 
         // Custom Vision の Subscription Key と URL をセット
         // サブスクリプション画面に表示される URL および Key をコピーしてください
-        var predictionKey = "YOUR_PREDICTION_KEY";
-        var endpoint = "https://YOUR_LOCATION.api.cognitive.microsoft.com/customvision/v3.0/Prediction/YOUR_APP_ID/classify/iterations/YOUR_APP_ITERATION/image";
+        //var predictionKey = "YOUR_PREDICTION_KEY";
+        //var endpoint = "https://YOUR_LOCATION.api.cognitive.microsoft.com/customvision/v3.0/Prediction/YOUR_APP_ID/classify/iterations/YOUR_APP_ITERATION/image";
+        var predictionKey = "7c6bd9971ece47fb9a2fde766fda02fc";
+        var endpoint = "https://japaneast.api.cognitive.microsoft.com/customvision/v3.0/Prediction/30e2c415-c878-4d63-92f7-9368de504fcb/classify/iterations/YogaVision/image";
         
         // Custom Vision 呼び出し URL をセット
         var webSvcUrl = endpoint;       
